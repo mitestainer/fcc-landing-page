@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>fCC Project: Product Landing Page</title>
+  <link rel="stylesheet" type="text/css" href="landing-page-styles.css" />
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous" />
+</head>
+<body>
+
+  <!-- Menubar -->
+
+  <header id="header">
+    <a href="#home">
+      <img id="header-img" src="http://www.berryfitness.com.au/wp-content/uploads/2018/01/BF_LOGO-HORIZONTAL-no_tagline.png" alt="Logo" /></a>
+      <nav id="nav-bar">
+        <ul>
+          <li><a href="#tour" class="nav-link">Take the tour</a></li>
+          <li><a href="#plans" class="nav-link">Plans</a></li>
+          <li><a href="#get-it" class="nav-link cta" role="button">Get it</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Home screen -->
+
+    <section id="home" class="box">
+      <div class="holder">
+        <h1 class="op">It's time to get in shape.</h1>
+        <p class="op line">Achieve your goals by finding a personal trainer near you.</p>
+        <iframe id="video" width="355" height="200" src="https://www.youtube.com/embed/YiG7EaD0-kI?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+      <div class="email">
+        <p><span class="name">Fitness24|7</span> is the place where you can connect with personal trainers nearby.</p>
+        <div class="form-holder">
+          <form action="https://www.freecodecamp.com/email-submit" id="form" method="post">
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+            <input type="email" id="email" name="email" placeholder="Enter your e-mail" required/>
+            <input type="submit" id="submit" class="cta" value="Submit">
+          </form>
+        </div>
+        <p>Registering is free. <a href="#plans" class="check">Check the paid plans</a>.</p>
+      </div>
+    </section>
+
+    <!-- Tour screen -->
+
+    <section id="tour" class="box standart">
+      <div class="holder">
+        <div class="inner">
+          <div class="inner-features">
+            <p>With <span class="name">Fitness24|7</span> you will find the best personal trainers, have a specific fitness plan for your goals and more!</p>
+            <a href="#" class="cta cta-button">Take the tour and see how it works! <i class="fas fa-arrow-right"></i></a>
+          </div>
+          <img src="https://static8.depositphotos.com/1053932/851/i/950/depositphotos_8510496-stock-photo-gym-personal-trainer-man-with.jpg" alt="A man being assisted by his personal trainer"/>
+        </div>
+      </div>
+    </section>
+
+    <!-- Plans -->
+
+    <section id="plans" class="box standart">
+      <div class="holder">
+        <h2>The plans</h2>
+        <div id="board">
+          <div class="options op1">
+            <div class="around opa">
+              <p class="plan-title">Basic</p>
+            </div>
+            <div class="around feat">
+              <p><i class="far fa-check-circle plus"></i> Access to the community</p>
+              <span class="plus">+</span>
+              <p><i class="far fa-check-circle plus"></i> Online support</p>
+            </div>
+            <div class="around opb">
+              <p><a href="#" class="plan-cta cta" role="button"><span class="price">$10</span> / month</a></p>
+            </div>
+          </div>
+          <div class="options op2">
+            <div class="around opa">
+              <p class="plan-title">Pro</p>
+            </div>
+            <div class="around feat">
+              <p><i class="far fa-check-circle plus"></i> Access to the community</p>
+              <span class="plus">+</span>
+              <p><i class="far fa-check-circle plus"></i> Online support</p>
+              <span class="plus">+</span>
+              <p><i class="far fa-check-circle plus"></i> Online follow-up</p>
+            </div>
+            <div class="around opb">
+              <p><a href="#" class="plan-cta cta" role="button"><span class="price">$30</span> / month</a></p>
+            </div>
+          </div>
+          <div class="options op3">
+            <div class="around opa">
+              <p class="plan-title">Personal + Nutrition</p>
+            </div>
+            <div class="around feat">
+              <p><i class="far fa-check-circle plus"></i> All the features of <span class="name">Personal24|7</span> with <span class="name">Nutrition24|7</span></p>
+              <hr/>
+              <p><i class="far fa-check-circle plus"></i> Have your personalized gym and diet plan.</p>
+            </div>
+            <div class="around opb">
+              <p><a href="#" class="plan-cta cta" role="button">Check the prices</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Get it -->
+
+    <section id="get-it" class="box standart">
+      <div class="holder">
+        <div class="inner">
+          <img src="http://fitnessmais.com.br/wp-content/uploads/2015/07/gestao-tecnica.jpg" alt="A personal trainer looking at you."/>
+          <div class="inner-get-it">
+            <h2>No more waiting!</h2>
+            <a href="#home" class="cta cta-button">Join now and enjoy your new lifestyle</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+      <p>2018 &copy; Lorem ipsum dolor sit amet.</p>
+      <p>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </p>
+    </footer>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+  </html>
