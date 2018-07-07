@@ -1,5 +1,3 @@
-# hello-world
-Just another repository
+fCC Project: Product Landing Page 
 
-
-Just writing some random stuff so that I can understand how this works.
+This is my version of this project from freeCodeCamp.
