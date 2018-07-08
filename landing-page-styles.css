@@ -466,8 +466,13 @@ footer a:hover {
     margin-top: 5px;
   }
   footer {
-    height: 70px;
+    height: 90px;
     padding: 6px 0;
     flex-direction: column;
+  }
+  footer p {
+    width: 100%;
+    display: inherit;
+    justify-content: space-around;
   }
 }
